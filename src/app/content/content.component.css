@@ -1,0 +1,49 @@
+.container-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeeee;
+    padding: 20px;
+}
+
+h2{
+    font-family: 'Jomhuria';
+    font-size: 3rem;
+    color: #373737;
+}
+
+.table{
+    color: #373737;
+    background-color: #d2d2d2;
+    width: 80%;
+    border-radius: 10px;
+}
+tbody{
+    border: solid 1px #d2d2d2;
+}
+
+th {
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+}
+
+
+td{
+    text-align: center;
+    padding: 7px 15px;
+    background-color: #ffffff;
+    border-bottom: solid 1px #d2d2d2;
+}
+.td-nome{
+    text-align: left;
+}
+
+.btn-remove{
+    color: red;
+    cursor: pointer;
+}
+.btn-remove:hover{
+    color: rgb(255, 213, 0);
+}

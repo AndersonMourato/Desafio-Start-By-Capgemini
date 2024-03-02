@@ -1,0 +1,36 @@
+
+.container-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #80C8DF;
+    padding: 20px;
+}
+
+.title{
+    font-family: 'Jomhuria';
+    color: #ffff;
+    font-size: 4rem;
+    margin-bottom: 0;
+    text-shadow: 1px 1px 1px #15151532;
+}
+
+.container-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+    padding: 30px 15px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+.formulario input{
+    margin-bottom: 10px;
+}
+

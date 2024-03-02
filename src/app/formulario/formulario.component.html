@@ -1,0 +1,13 @@
+<div class="container-section">
+    <section class="container-section">
+        <h1 class="title"> Cadastro de Alunos </h1>
+        <article class="container-form">
+            <form class="formulario" (change)="servicos.getAll()">
+                <input type="text" class="form-control" placeholder="Digite o nome" [(ngModel)]="aluno.nome" name="nome">
+                <input type="text" class="form-control" placeholder="Digite a 1ª nota" [(ngModel)]="aluno.nota01" name="nota01">
+                <input type="text" class="form-control" placeholder="Digite a 2ª nota" [(ngModel)]="aluno.nota02" name="nota02">
+                <button (click)="btnGravar()" class="btn btn-primary"> Gravar </button>
+            </form>
+        </article>
+    </section>
+</div>
