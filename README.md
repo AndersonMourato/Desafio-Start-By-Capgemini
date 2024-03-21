@@ -16,3 +16,5 @@ Trilha selecionada: JAVA
 - HTML AVANÇADO
 - CSS AVANÇADO
 - TRABALHANDO COM UX DESIGN
+
+![Print](src/assets/captura-de-tela-2024-03-14-110713.png)
